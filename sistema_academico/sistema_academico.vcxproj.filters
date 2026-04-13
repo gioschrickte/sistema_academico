@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\classes-base">
+      <UniqueIdentifier>{5b257112-2a32-4cef-b7ea-faaddc160914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\classes-encapsulamento">
+      <UniqueIdentifier>{b3c77585-eb96-4630-b21a-2ed2ed9dd915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Listas">
+      <UniqueIdentifier>{c16e62a1-3594-4626-8137-6ac5d519aaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classes-base">
+      <UniqueIdentifier>{54d8e369-e1a7-4b2a-8bd2-e8f625fbc451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classes-encapsulamento">
+      <UniqueIdentifier>{a8a90f61-8912-4fb6-b68a-191294364c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Listas">
+      <UniqueIdentifier>{4e41e039-99fe-4a12-9765-73214822cc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ListasGravadoras">
+      <UniqueIdentifier>{f862d27f-fdc1-49b0-838b-7072965780e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ListasGravadoras">
+      <UniqueIdentifier>{02eb7ddc-0170-4e27-81fd-e2078b7c6147}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Principal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ElUniversidade.h">
+      <Filter>Header Files\classes-encapsulamento</Filter>
+    </ClInclude>
+    <ClInclude Include="ElDisciplina.h">
+      <Filter>Header Files\classes-encapsulamento</Filter>
+    </ClInclude>
+    <ClInclude Include="ElDepartamento.h">
+      <Filter>Header Files\classes-encapsulamento</Filter>
+    </ClInclude>
+    <ClInclude Include="ElAluno.h">
+      <Filter>Header Files\classes-encapsulamento</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAlunos.h">
+      <Filter>Header Files\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDepartamentos.h">
+      <Filter>Header Files\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDisciplinas.h">
+      <Filter>Header Files\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Universidade.h">
+      <Filter>Header Files\classes-base</Filter>
+    </ClInclude>
+    <ClInclude Include="Aluno.h">
+      <Filter>Header Files\classes-base</Filter>
+    </ClInclude>
+    <ClInclude Include="Departamento.h">
+      <Filter>Header Files\classes-base</Filter>
+    </ClInclude>
+    <ClInclude Include="Disciplina.h">
+      <Filter>Header Files\classes-base</Filter>
+    </ClInclude>
+    <ClInclude Include="Pessoa.h">
+      <Filter>Header Files\classes-base</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaUniversidades.h">
+      <Filter>Header Files\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Elemento.h">
+      <Filter>Header Files\classes-encapsulamento</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Header Files\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAlunosGravadora.h">
+      <Filter>Header Files\ListasGravadoras</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDepartamentosGravadora.h">
+      <Filter>Header Files\ListasGravadoras</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDisciplinasGravadora.h">
+      <Filter>Header Files\ListasGravadoras</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaUniversidadesGravadora.h">
+      <Filter>Header Files\ListasGravadoras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Principal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElAluno.cpp">
+      <Filter>Source Files\classes-encapsulamento</Filter>
+    </ClCompile>
+    <ClCompile Include="ElDepartamento.cpp">
+      <Filter>Source Files\classes-encapsulamento</Filter>
+    </ClCompile>
+    <ClCompile Include="ElDisciplina.cpp">
+      <Filter>Source Files\classes-encapsulamento</Filter>
+    </ClCompile>
+    <ClCompile Include="ElUniversidade.cpp">
+      <Filter>Source Files\classes-encapsulamento</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaAlunos.cpp">
+      <Filter>Source Files\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDepartamentos.cpp">
+      <Filter>Source Files\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDisciplinas.cpp">
+      <Filter>Source Files\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaUniversidades.cpp">
+      <Filter>Source Files\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Aluno.cpp">
+      <Filter>Source Files\classes-base</Filter>
+    </ClCompile>
+    <ClCompile Include="Departamento.cpp">
+      <Filter>Source Files\classes-base</Filter>
+    </ClCompile>
+    <ClCompile Include="Disciplina.cpp">
+      <Filter>Source Files\classes-base</Filter>
+    </ClCompile>
+    <ClCompile Include="Pessoa.cpp">
+      <Filter>Source Files\classes-base</Filter>
+    </ClCompile>
+    <ClCompile Include="Universidade.cpp">
+      <Filter>Source Files\classes-base</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaAlunosGravadora.cpp">
+      <Filter>Source Files\ListasGravadoras</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDepartamentosGravadora.cpp">
+      <Filter>Source Files\ListasGravadoras</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDisciplinasGravadora.cpp">
+      <Filter>Source Files\ListasGravadoras</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaUniversidadesGravadora.cpp">
+      <Filter>Source Files\ListasGravadoras</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
